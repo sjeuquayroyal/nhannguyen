@@ -34,8 +34,8 @@
                                 <i class="fa fa-phone"></i>
                             </div>
                             <div class="hero__search__phone__text">
-                                <h5> +84 09 0785 3006</h5>
-                                <span>support 24/7 time</span>
+                                <h5> +84 90 720 0573</h5>
+                                <span>Hỗ trợ 24/7 time</span>
                             </div>
                         </div>
                     </div>
@@ -51,7 +51,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <div class="breadcrumb__text">
-                        <h2>Adding</h2>
+                        <h2>Thêm </h2>
                         <div class="breadcrumb__option">
                             <a href="?page=content">Home</a>
                             <a href="?page=content">Recorded</a>
@@ -152,28 +152,28 @@
          
          <form id="frmProduct" name="frmProduct" method="post" enctype="multipart/form-data" action="" class="form-horizontal" role="form">
 				<div class="form-group">
-					<label for="txtTen" class="col-sm-2 control-label">Product ID(*):  </label>
+					<label for="txtTen" class="col-sm-2 control-label">ID sản phẩm(*):  </label>
 							<div class="col-sm-10">
-							      <input type="text" name="txtID" id="txtID" class="form-control" placeholder="Product ID" value="<?php if(isset($id)) echo $id?>"/>
+							      <input type="text" name="txtID" id="txtID" class="form-control" placeholder="ID sản phẩm" value="<?php if(isset($id)) echo $id?>"/>
 							</div>
                 
 				<div class="form-group"> 
-					<label for="txtTen" class="col-sm-2 control-label">Product Name(*):  </label>
+					<label for="txtTen" class="col-sm-2 control-label">Tên sản phẩm(*):  </label>
 							<div class="col-sm-10">
 								  <input type="text" name="txtName" id="txtName" class="form-control" 
-								  placeholder="Product Name" value=''/>
+								  placeholder="Tên sản phẩm" value=''/>
 							</div>
                 </div>   
                           
                 <div class="form-group">  
-                    <label for="lblGia" class="col-sm-2 control-label">Price(*):  </label>
+                    <label for="lblGia" class="col-sm-2 control-label">Giá tiền(*):  </label>
 							<div class="col-sm-10">
-							      <input type="text" name="txtPrice" id="txtPrice" class="form-control" placeholder="Price" value="<?php if(isset($price)) echo $price?>"/>
+							      <input type="text" name="txtPrice" id="txtPrice" class="form-control" placeholder="Giá" value="<?php if(isset($price)) echo $price?>"/>
 							</div>
                  </div>   
 
                  <div class="form-group">   
-                    <label for="" class="col-sm-2 control-label">Product category(*):  </label>
+                    <label for="" class="col-sm-2 control-label">Loại sản phẩm(*):  </label>
 							<div class="col-sm-10">
                             
 							      <?php bind_Category_List($conn); ?>
@@ -181,14 +181,14 @@
                 </div>  
                             
                 <div class="form-group">   
-                    <label for="lblShort" class="col-sm-12 control-label">Short description(*):  </label>
+                    <label for="lblShort" class="col-sm-12 control-label">Mô tả ngắn(*):  </label>
 							<div class="col-sm-10">
-							      <input type="text" name="txtShort" id="txtShort" class="form-control" placeholder="Short description" value="<?php if(isset($short)) echo $short?>"/>
+							      <input type="text" name="txtShort" id="txtShort" class="form-control" placeholder="Mô tả ngắn" value="<?php if(isset($short)) echo $short?>"/>
 							</div>
                 </div>
 
 				<div class="form-group">   
-                    <label for="" class="col-sm-2 control-label">Branch(*):  </label>
+                    <label for="" class="col-sm-2 control-label">Chi nhánh(*):  </label>
 							<div class="col-sm-10">
                             
 							      <?php bind_Branch_List($conn); ?>
@@ -203,14 +203,14 @@
                 </div>
                             
             	<div class="form-group">  
-                    <label for="lblQty" class="col-sm-2 control-label">Quantity(*):  </label>
+                    <label for="lblQty" class="col-sm-2 control-label">Số lượng(*):  </label>
 							<div class="col-sm-10">
-							      <input type="number" name="txtQty" id="txtQty" class="form-control" placeholder="Quantity" value="<?php if(isset($qty)) echo $qty?>"/>
+							      <input type="number" name="txtQty" id="txtQty" class="form-control" placeholder="Số lượng" value="<?php if(isset($qty)) echo $qty?>"/>
 							</div>
                 </div>
  
 				<div class="form-group">  
-	                <label for="lblImage" class="col-sm-2 control-label">Image(*):  </label>
+	                <label for="lblImage" class="col-sm-2 control-label">Hình ảnh(*):  </label>
 							<div class="col-sm-10">
 							
 							      <input type="file" name="txtImage" id="txtImage" class="form-control" value=""/>
