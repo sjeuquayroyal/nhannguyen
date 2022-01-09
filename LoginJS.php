@@ -5,7 +5,7 @@
                     <div class="hero__categories">
                         <div class="hero__categories__all">
                             <i class="fa fa-bars"></i>
-                            <span>All departments</span>
+                            <span>Mục lục</span>
                         </div>
                         <ul>
                         <?php Category_List($conn ); ?>
@@ -21,8 +21,8 @@
                                     All Categories
                                     <span class="arrow_carrot-down"></span>
                                 </div>
-                                <input type="text" placeholder="What do yo u need?">
-                                <button type="submit" class="site-btn">SEARCH</button>
+                                <input type="text" placeholder="Bạn cần tìm gì?">
+                                <button type="submit" class="site-btn">Tìm kiếm</button>
                             </form>
                         </div>
                         <div class="hero__search__phone">
@@ -30,8 +30,8 @@
                                 <i class="fa fa-phone"></i>
                             </div>
                             <div class="hero__search__phone__text">
-                                <h5> +84 90 785 3006</h5>
-                                <span>support 24/7 time</span>
+                                <h5> +84 90 720 0573</h5>
+                                <span>Hỗ trợ 24/7</span>
                             </div>
                         </div>
                     </div>
@@ -48,8 +48,8 @@
                     <div class="breadcrumb__text">
                         <h2>Login</h2>
                         <div class="breadcrumb__option">
-                            <a href="?page=content">Home</a>
-                            <span>Login</span>
+                            <a href="?page=content">Trang chủ</a>
+                            <span>Đăng nhập</span>
                         </div>
                     </div>
                 </div>
@@ -124,16 +124,16 @@
 	<div class="container">
     <div class="humberger__menu__nav mobile-menu">
 
-        <label for="txtUsername" class="col-sm-2 control-label">Username(*):  </label>
+        <label for="txtUsername" class="col-sm-2 control-label">Tên tài khoán(*):  </label>
 		<div class="col-sm-10">
-		      <input type="text" name="txtUsername" id="txtUsername" class="form-control" placeholder="Username" value=""/>
+		      <input type="text" name="txtUsername" id="txtUsername" class="form-control" placeholder="Nhập tên tài khoản" value=""/>
 		</div>
       </div>  
       
     <div class="form-group">
-		<label for="txtPass" class="col-sm-2 control-label">Password(*):  </label>			
+		<label for="txtPass" class="col-sm-2 control-label">Mật khẩu(*):  </label>			
 		<div class="col-sm-10">
-		      	<input type="password" name="txtPass" id="txtPass" class="form-control" placeholder="Password" value=""/>
+		      	<input type="password" name="txtPass" id="txtPass" class="form-control" placeholder="Nhập mật khẩu" value=""/>
 		</div>
 	</div> 
 	<div class="form-group">
