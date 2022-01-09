@@ -413,10 +413,7 @@ include_once("connection.php");
                         <ul>
                             <li><a href="#">Thông tin</a></li>
                             
-                            <li><a href="#">Secure Shopping</a></li>
-                            <li><a href="#">Delivery infomation</a></li>
-                            <li><a href="#">Privacy Policy</a></li>
-                            <li><a href="#">Our Sitemap</a></li>
+                            <li><a href="#">Trang của chúng tôi</a></li>
                         </ul>
                        
                     </div>
@@ -424,8 +421,8 @@ include_once("connection.php");
                 <div class="col-lg-4 col-md-12">
                     <div class="footer__widget">
                         <form action="#">
-                            <input type="text" placeholder="Enter your mail">
-                            <button type="submit" class="site-btn">Subscribe</button>
+                            <input type="text" placeholder="Nhập mail của bạn">
+                            <button type="submit" class="site-btn">Đăng ký</button>
                         </form>
                         <div class="footer__widget__social">
                             <a href="#"><i class="fa fa-facebook"></i></a>
