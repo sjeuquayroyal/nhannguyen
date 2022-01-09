@@ -7,7 +7,7 @@
     <meta name="keywords" content="Vinyl, unica, creative, html">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>ATN Shop</title>
+    <title>Nguyễn Nhâb</title>
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;900&display=swap" rel="stylesheet">
@@ -44,7 +44,7 @@ include_once("connection.php");
                 <li><a href="#"><i class="fa fa-heart"></i> <span>2</span></a></li>
                 <li><a href="#"><i class="fa fa-shopping-bag"></i> <span>3</span></a></li>
             </ul>
-            <div class="header__cart__price">Mục: <span>VNĐ</span></div>
+            <div class="header__cart__price"> Danh mục: <span>VNĐ</span></div>
         </div>
         <div class="humberger__menu__widget">
             <div class="header__top__right__language">
