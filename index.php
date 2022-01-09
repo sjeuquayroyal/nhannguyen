@@ -420,12 +420,8 @@ include_once("connection.php");
                 </div>
                 <div class="col-lg-4 col-md-12">
                     <div class="footer__widget">
-                        <form action="#">
-                            <input type="text" placeholder="Nhập mail của bạn">
-                            <button type="submit" class="site-btn">Đăng ký</button>
-                        </form>
                         <div class="footer__widget__social">
-                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="https://www.facebook.com/profile.php?id=100072321205186"><i class="fa fa-facebook"></i></a>
                             <a href="#"><i class="fa fa-instagram"></i></a>
                             <a href="#"><i class="fa fa-twitter"></i></a>
                             <a href="#"><i class="fa fa-pinterest"></i></a>
