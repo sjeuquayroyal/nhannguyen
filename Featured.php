@@ -7,7 +7,7 @@
                     </div>
                     <div class="featured__controls">
                         <ul>
-                            <li class="active" data-filter="*" ><a href="?page=content">All</a></li>
+                            <li class="active" data-filter="*" ><a href="?page=content">Tất cả</a></li>
                             <?php Featured($conn); ?>
                             
                             
