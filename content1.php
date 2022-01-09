@@ -20,8 +20,8 @@
                         <div class="hero__search__form">
                             <form action="#" method="POST">
                                 
-                                <input type="text" name="txtSearch" placeholder="What do you need?">
-                                <button type="submit" id="btnSearch" name ="btnSearch" class="site-btn">SEARCH</button>
+                                <input type="text" name="txtSearch" placeholder="Bạn cần tìm gì ?">
+                                <button type="submit" id="btnSearch" name ="btnSearch" class="site-btn">Tìm kiếm</button>
                             </form>
                         </div>
                         <div class="hero__search__phone">
@@ -29,8 +29,8 @@
                                 <i class="fa fa-phone"></i>
                             </div>
                             <div class="hero__search__phone__text">
-                                <h5>+84 90 785 3006</h5>
-                                <span>support 24/7 time</span>
+                                <h5> +84 90 720 0573</h5>
+                                <span>Hỗ trợ 24/7</span>
                             </div>
                         </div>
                     </div>
@@ -39,7 +39,7 @@
                             <span>NEW ON</span>
                             <h2>ATN <br />TOY</h2> 
                             
-                            <a href="?page=shop-grid" class="primary-btn">SHOP NOW</a>
+                            <a href="?page=shop-grid" class="primary-btn">Mua hàng ngay bây giờ</a>
                         </div>
                     </div>
                 </div>
