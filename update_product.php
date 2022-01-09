@@ -8,13 +8,13 @@
                     <div class="hero__categories">
                         <div class="hero__categories__all">
                             <i class="fa fa-bars"></i>
-                            <span>All Department</span>
+                            <span>Danh mục</span>
                         </div>
                         <ul>
 						    <?php Department($conn); ?>
                         </ul>
                         <ul>
-                        <li ><a  href="?page=pm">All</a></li>
+                        <li ><a  href="?page=pm">Tất cả</a></li>
 
                         <?php Category_List($conn ); ?>
                             
@@ -30,8 +30,8 @@
                                     <span class="arrow_carrot-down"></span>
                                     
                                 </div>
-                                <input type="text" placeholder="What do yo u need?">
-                                <button type="submit" class="site-btn">SEARCH</button>
+                                <input type="text" placeholder="Bạn cầm tìm gì?">
+                                <button type="submit" class="site-btn">Tìm kiếm</button>
                             </form>
                         </div>
                         <div class="hero__search__phone">
@@ -39,8 +39,8 @@
                                 <i class="fa fa-phone"></i>
                             </div>
                             <div class="hero__search__phone__text">
-                                <h5>+84 09 078 53006</h5>
-                                <span>support 24/7 time</span>
+                                <h5>+84 90 720 0573</h5>
+                                <span>Hỗ trợ 24/7</span>
                             </div>
                         </div>
                     </div>
@@ -58,8 +58,8 @@
                     <div class="breadcrumb__text">
                         <h2>Products Management</h2>
                         <div class="breadcrumb__option">
-                            <a href="./index.html">Home</a>
-                            <span>Products Management</span>
+                            <a href="./index.html">Trang chủ</a>
+                            <span>Quản lý sản phẩm</span>
                         </div>
                     </div>
                 </div>
@@ -130,21 +130,21 @@ echo "<SELECT name ='CategoryList' class='from-control'>
 
 	 	<form id="frmProduct" name="frmProduct" method="post" enctype="multipart/form-data" action="" class="form-horizontal" role="form">
 				<div class="form-group">
-					<label for="txtTen" class="col-sm-2 control-label">Product ID(*):  </label>
+					<label for="txtTen" class="col-sm-2 control-label">Mã sản phẩm(*):  </label>
 							<div class="col-sm-10">
 								  <input type="text" name="txtID" id="txtID" class="form-control" 
 								  placeholder="Product ID" readonly value='<?php echo $id?>'/>
 							</div>
 				</div> 
 				<div class="form-group"> 
-					<label for="txtTen" class="col-sm-2 control-label">Product Name(*):  </label>
+					<label for="txtTen" class="col-sm-2 control-label">Tên sản phẩm(*):  </label>
 							<div class="col-sm-10">
 								  <input type="text" name="txtName" id="txtName" class="form-control" 
 								  placeholder="Product Name" value='<?php echo $row["product_name"]?>'/>
 							</div>
                 </div>   
                 <div class="form-group">   
-                    <label for="" class="col-sm-5 control-label">Product category(*):  </label>
+                    <label for="" class="col-sm-5 control-label">Loại sản phẩm(*):  </label>
 							<div class="col-sm-10">
 								<?php bind_Category_List($conn, $category); ?>
 							      
@@ -152,41 +152,41 @@ echo "<SELECT name ='CategoryList' class='from-control'>
                 </div>  
                           
                 <div class="form-group">  
-                    <label for="lblPrice" class="col-sm-12 control-label">Price(*):  </label>
+                    <label for="lblPrice" class="col-sm-12 control-label">GIá(*):  </label>
 							<div class="col-sm-10">
 							      <input type="text" name="txtPrice" id="txtPrice" class="form-control" placeholder="Price" value="<?php echo $price?>"/>
 							</div>
                  </div>   
 				 <div class="form-group">   
-                    <label for="" class="col-sm-5 control-label">Branch category(*):  </label>
+                    <label for="" class="col-sm-5 control-label">Chi nhánh(*):  </label>
 							<div class="col-sm-10">
 								<?php bind_Branch_List($conn, $branch); ?>
 							      
 							</div>
                 </div>  
                 <div class="form-group">   
-                    <label for="lblShort" class="col-sm-5 control-label">Short description(*):  </label>
+                    <label for="lblShort" class="col-sm-5 control-label">Mô tả ngắn(*):  </label>
 							<div class="col-sm-10">
 							      <input type="text" name="txtShort" id="txtShort" class="form-control" placeholder="Short description" value="<?php echo $short?>"/>
 							</div>
                 </div>
                             
                 <div class="form-group">   
-                    <label for="lblDetail" class="col-sm-5 control-label">Detail Description(*):  </label>
+                    <label for="lblDetail" class="col-sm-5 control-label">Mô tả chi tiết(*):  </label>
 <div class="col-sm-10">
 							      <textarea type="text" name="txtDetail" id="txtDetail" class="form-control" style="height: 150px" row="4" value="<?php echo $detail?>"></textarea>
 							</div>
                 </div>
                             
             	<div class="form-group">  
-                    <label for="lblSoLuong" class="col-sm-2 control-label">Quantity(*):  </label>
+                    <label for="lblSoLuong" class="col-sm-2 control-label">Sos lượng(*):  </label>
 							<div class="col-sm-10">
 							      <input type="number" name="txtQty" id="txtQty" class="form-control" placeholder="Quantity" value="<?php echo $qty ?>"/>
 							</div>
                 </div>
  
 				<div class="form-group">  
-	                <label for="sphinhanh" class="col-sm-2 control-label">Image(*):  </label>
+	                <label for="sphinhanh" class="col-sm-2 control-label">Hình ảnh(*):  </label>
 							<div class="col-sm-10">
 							<img src='ATNtoy/<?php echo $pic; ?>' border='0' width="50" height="50"  />
 							      <input type="file" name="txtImage" id="txtImage" class="form-control" value=""/>
