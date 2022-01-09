@@ -6,13 +6,13 @@
                     <div class="hero__categories">
                         <div class="hero__categories__all">
                             <i class="fa fa-bars"></i>
-                            <span>All departments</span>
+                            <span>Mục</span>
                         </div>
                         <ul>
-                            <li><a href="#">One Piece</a></li>
-                            <li><a href="#">CTokyo Revenger</a></li>
+                            <li><a href="#">Thực phẩm chức năng</a></li>
+                            <li><a href="#">Dầu</a></li>
                             
-                            <li><a href="#">Attack on Titan</a></li>
+                            <li><a href="#"> Vitamin</a></li>
                             
                         </ul>
                     </div>
@@ -26,7 +26,7 @@
                                     <span class="arrow_carrot-down"></span>
                                 </div>
                                 <input type="text" placeholder="What do yo u need?">
-                                <button type="submit" class="site-btn">SEARCH</button>
+                                <button type="submit" class="site-btn">Tìm kiếm</button>
                             </form>
                         </div>
                         <div class="hero__search__phone">
@@ -34,8 +34,8 @@
                                 <i class="fa fa-phone"></i>
                             </div>
                             <div class="hero__search__phone__text">
-                                <h5>+84 90 785 3006</h5>
-                                <span>support 24/7 time</span>
+                                <h5>+84 90 720 0573</h5>
+                                <span>Hỗ trợ 24/7</span>
                             </div>
                         </div>
                     </div>
@@ -50,10 +50,10 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <div class="breadcrumb__text">
-                        <h2>Register</h2>
+                        <h2>Đăng ký</h2>
                         <div class="breadcrumb__option">
-                            <a href="?page=content">Home</a>
-                            <span>Register</span>
+                            <a href="?page=content">Trang chủ</a>
+                            <span>Đăng ký</span>
                         </div>
                     </div>
                 </div>
@@ -129,34 +129,34 @@ if(isset($_POST['btnRegister']))
 ?>
  
 <div class="container">
-        <h2>Member Registration</h2>
+        <h2>Đăng ký thành viên</h2>
 			 	<form id="form1" name="form1" method="post" action="" class="form-horizontal" role="form">
 					<div class="form-group">
 						    
-                            <label for="txtTen" class="col-sm-2 control-label">Username(*):  </label>
+                            <label for="txtTen" class="col-sm-2 control-label">Tên tài khoản(*):  </label>
 							<div class="col-sm-10">
-							      <input type="text" name="txtUsername" id="txtUsername" class="form-control" placeholder="Username" value=""/>
+							      <input type="text" name="txtUsername" id="txtUsername" class="form-control" placeholder="ên tài khoản" value=""/>
 							</div>
                       </div>  
                       
                        <div class="form-group">   
-                            <label for="" class="col-sm-2 control-label">Password(*):  </label>
+                            <label for="" class="col-sm-2 control-label">Mật khẩu(*):  </label>
 							<div class="col-sm-10">
-							      <input type="password" name="txtPass1" id="txtPass1" class="form-control" placeholder="Password"/>
+							      <input type="password" name="txtPass1" id="txtPass1" class="form-control" placeholder="Mật khẩu"/>
 							</div>
                        </div>     
                        
                        <div class="form-group"> 
-                            <label for="" class="col-sm-2 control-label">Confirm Password(*):  </label>
+                            <label for="" class="col-sm-2 control-label">Nhập lại mật khẩu(*):  </label>
 							<div class="col-sm-10">
-							      <input type="password" name="txtPass2" id="txtPass2" class="form-control" placeholder="Confirm your Password"/>
+							      <input type="password" name="txtPass2" id="txtPass2" class="form-control" placeholder="Nhập lại mật khẩu"/>
 							</div>
                        </div>     
                        
                        <div class="form-group">                               
-                            <label for="lblFullName" class="col-sm-2 control-label">Full name(*):  </label>
+                            <label for="lblFullName" class="col-sm-2 control-label">Tên đầy đủ(*):  </label>
 							<div class="col-sm-10">
-							      <input type="text" name="txtFullname" id="txtFullname" value="" class="form-control" placeholder="Enter Fullname"/>
+							      <input type="text" name="txtFullname" id="txtFullname" value="" class="form-control" placeholder="Nhập tên đầy đủ"/>
 							</div>
                        </div> 
                        
@@ -168,21 +168,21 @@ if(isset($_POST['btnRegister']))
                        </div>  
                        
                         <div class="form-group">   
-                             <label for="lblDiaChi" class="col-sm-2 control-label">Address(*):  </label>
+                             <label for="lblDiaChi" class="col-sm-2 control-label">Địa chỉ(*):  </label>
 							<div class="col-sm-10">
-							      <input type="text" name="txtAddress" id="txtAddress" value="" class="form-control" placeholder="Address"/>
+							      <input type="text" name="txtAddress" id="txtAddress" value="" class="form-control" placeholder="Địa chỉ"/>
 							</div>
                         </div>  
                         
                          <div class="form-group">  
-                            <label for="lblDienThoai" class="col-sm-2 control-label">Telephone(*):  </label>
+                            <label for="lblDienThoai" class="col-sm-2 control-label">Số điện thoại(*):  </label>
 							<div class="col-sm-10">
-							      <input type="text" name="txtTel" id="txtTel" value="" class="form-control" placeholder="Telephone" />
+							      <input type="text" name="txtTel" id="txtTel" value="" class="form-control" placeholder="Số điện thoại" />
 							</div>
                          </div> 
                          
                           <div class="form-group">  
-                            <label for="lblGioiTinh" class="col-sm-2 control-label">Gender(*):  </label>
+                            <label for="lblGioiTinh" class="col-sm-2 control-label">Giới tính(*):  </label>
 							<div class="col-sm-10">                              
                                       <label class="radio-inline"><input type="radio" name="grpRender" value="0" id="grpRender"  />
                                       Male</label>
@@ -195,7 +195,7 @@ if(isset($_POST['btnRegister']))
                           </div> 
                           
                           <div class="form-group"> 
-                            <label for="lblNgaySinh" class="col-sm-2 control-label">Date of Birth(*):  </label>
+                            <label for="lblNgaySinh" class="col-sm-2 control-label">Ngày tháng năm sinh(*):  </label>
                             <div class="col-sm-10 input-group">
                                 <span class="input-group-btn">
                                   <select name="slDate" id="slDate" class="form-control" >
