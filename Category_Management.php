@@ -7,13 +7,13 @@
                     <div class="hero__categories">
                         <div class="hero__categories__all">
                             <i class="fa fa-bars"></i>
-                            <span>All departments</span>
+                            <span>Mục lục</span>
                             
                             
                         </div>
                         
                         <ul>
-                        <li ><a  href="?page=pm">All</a></li>
+                        <li ><a  href="?page=pm">Tất cả</a></li>
 
                             <?php Category_List($conn ); ?>
                             
@@ -25,12 +25,12 @@
                         <div class="hero__search__form">
                             <form action="#">
                                 <div class="hero__search__categories">
-                                    All Categories
+                                    Tất cả loại 
                                     <span class="arrow_carrot-down"></span>
                                     
                                 </div>
-                                <input type="text" placeholder="What do yo u need?">
-                                <button type="submit" class="site-btn">SEARCH</button>
+                                <input type="text" placeholder="Bạn cầm tìm gì ?">
+                                <button type="submit" class="site-btn">Tìm kiếm</button>
                             </form>
                         </div>
                         <div class="hero__search__phone">
@@ -38,8 +38,8 @@
                                 <i class="fa fa-phone"></i>
                             </div>
                             <div class="hero__search__phone__text">
-                                <h5>+84 90 785 3006</h5>
-                                <span>support 24/7 time</span>
+                                <h5>+84 90 720 0573</h5>
+                                <span>Hỗ trợ 24/7</span>
                             </div>
                         </div>
                     </div>
@@ -55,10 +55,10 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <div class="breadcrumb__text">
-                        <h2>Category Management</h2>
+                        <h2>Quản lý loại</h2>
                         <div class="breadcrumb__option">
-                            <a href="./index.html">Home</a>
-                            <span>Category Management</span>
+                            <a href="./index.html">Trang chủ</a>
+                            <span>Quản lý loại sản phẩm</span>
                         </div>
                     </div>
                 </div>
@@ -73,16 +73,16 @@
         <form name="frm" method="post" action="">
         <h1>Category Management</h1>
         <p>
-        <i class="fa fa-plus"></i> <a href="?page=addc"> Add</a>
+        <i class="fa fa-plus"></i> <a href="?page=addc"> Thêm</a>
         </p>
         <table id="tablecategory" class="table table-striped table-bordered" cellspacing="0" width="100%">
             <thead>
                 <tr>
                     <th><strong>No.</strong></th>
-                    <th><strong>Category Name</strong></th>
-                     <th><strong>Description</strong></th>
-                    <th><strong>Edit</strong></th>
-                    <th><strong>Delete</strong></th>
+                    <th><strong>Tên loại</strong></th>
+                     <th><strong>Mô tả</strong></th>
+                    <th><strong>Sửa</strong></th>
+                    <th><strong>Xóa</strong></th>
                 </tr>
              </thead>
 

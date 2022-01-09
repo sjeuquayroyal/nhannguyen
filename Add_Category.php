@@ -5,13 +5,13 @@
                     <div class="hero__categories">
                         <div class="hero__categories__all">
                             <i class="fa fa-bars"></i>
-                            <span>All departments</span>
+                            <span>Mục lục</span>
                             
                             
                         </div>
                         
                         <ul>
-                        <li ><a  href="?page=pm">All</a></li>
+                        <li ><a  href="?page=pm">Tất cả</a></li>
 
                         <?php Category_List($conn ); ?>
                             
@@ -27,8 +27,8 @@
                                     <span class="arrow_carrot-down"></span>
                                     
                                 </div>
-                                <input type="text" placeholder="What do yo u need?">
-                                <button type="submit" class="site-btn">SEARCH</button>
+                                <input type="text" placeholder="Bạn cầm tìm gì?">
+                                <button type="submit" class="site-btn">Tìm kiếm</button>
                             </form>
                         </div>
                         <div class="hero__search__phone">
@@ -36,8 +36,8 @@
                                 <i class="fa fa-phone"></i>
                             </div>
                             <div class="hero__search__phone__text">
-                                <h5>+84 90 785 3006</h5>
-                                <span>support 24/7 time</span>
+                                <h5>+84 90 720 0573</h5>
+                                <span>Hỗ trợ 24/7</span>
                             </div>
                         </div>
                     </div>
@@ -53,10 +53,10 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <div class="breadcrumb__text">
-                        <h2>Category Management</h2>
+                        <h2>Quản lý loại</h2>
                         <div class="breadcrumb__option">
-                            <a href="?page=content">Home</a>
-                            <span>Categories Management</span>
+                            <a href="?page=content">Trang chủ</a>
+                            <span>Quản lý loại</span>
                         </div>
                     </div>
                 </div>
@@ -107,22 +107,22 @@
 	<h2>Adding Category</h2>
 			 	<form id="form1" name="form1" method="post" action="" class="form-horizontal" role="form">
 				 <div class="form-group">
-						    <label for="txtTen" class="col-sm-2 control-label">Category ID(*):  </label>
+						    <label for="txtTen" class="col-sm-2 control-label">Mã loại(*):  </label>
 							<div class="col-sm-10">
-							      <input type="text" name="txtID" id="txtID" class="form-control" placeholder="Category ID" value='<?php echo isset($_POST["txtID"])?($_POST["txtID"]):"";?>'>
+							      <input type="text" name="txtID" id="txtID" class="form-control" placeholder="ID loại" value='<?php echo isset($_POST["txtID"])?($_POST["txtID"]):"";?>'>
 							</div>
 					</div>	
 				 <div class="form-group">
-						    <label for="txtTen" class="col-sm-2 control-label">Category Name(*):  </label>
+						    <label for="txtTen" class="col-sm-2 control-label">Tên loại(*):  </label>
 							<div class="col-sm-10">
-							      <input type="text" name="txtName" id="txtName" class="form-control" placeholder="Category Name" value='<?php echo isset($_POST["txtName"])?($_POST["txtName"]):"";?>'>
+							      <input type="text" name="txtName" id="txtName" class="form-control" placeholder="Tên loại" value='<?php echo isset($_POST["txtName"])?($_POST["txtName"]):"";?>'>
 							</div>
 					</div>
                     
                     <div class="form-group">
-						    <label for="txtMoTa" class="col-sm-2 control-label">Description(*):  </label>
+						    <label for="txtMoTa" class="col-sm-2 control-label">Mô tả(*):  </label>
 							<div class="col-sm-10">
-							      <input type="text" name="txtDes" id="txtDes" class="form-control" placeholder="Description" value='<?php echo isset($_POST["txtDes"])?($_POST["txtDes"]):"";?>'>
+							      <input type="text" name="txtDes" id="txtDes" class="form-control" placeholder="Mô tả" value='<?php echo isset($_POST["txtDes"])?($_POST["txtDes"]):"";?>'>
 							</div>
 					</div>
                     

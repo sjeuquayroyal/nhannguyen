@@ -152,7 +152,7 @@
          
          <form id="frmProduct" name="frmProduct" method="post" enctype="multipart/form-data" action="" class="form-horizontal" role="form">
 				<div class="form-group">
-					<label for="txtTen" class="col-sm-2 control-label">ID sản phẩm(*):  </label>
+					<label for="txtTen" class="col-sm-2 control-label">Mã sản phẩm(*):  </label>
 							<div class="col-sm-10">
 							      <input type="text" name="txtID" id="txtID" class="form-control" placeholder="ID sản phẩm" value="<?php if(isset($id)) echo $id?>"/>
 							</div>

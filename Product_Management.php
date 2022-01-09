@@ -19,14 +19,14 @@
                     <div class="hero__categories">
                         <div class="hero__categories__all">
                             <i class="fa fa-bars"></i>
-                            <span>All Departments</span>
+                            <span>Mục lục</span>
                         <ul>
                             <?php Department($conn); ?>
                         </ul>
                         </div>
                         
                         <ul>
-                        <li ><a  href="?page=pm">All</a></li>
+                        <li ><a  href="?page=pm">Tâdt cả</a></li>
 
                         <?php Category_List($conn ); ?>
                             
@@ -42,8 +42,8 @@
                                     <span class="arrow_carrot-down"></span>
                                     
                                 </div>
-                                <input type="text" placeholder="What do yo u need?">
-                                <button type="submit" class="site-btn">SEARCH</button>
+                                <input type="text" placeholder="Bạn cần tìm gì ?">
+                                <button type="submit" class="site-btn">Tìm kiếm</button>
                             </form>
                         </div>
                         <div class="hero__search__phone">
@@ -51,8 +51,8 @@
                                 <i class="fa fa-phone"></i>
                             </div>
                             <div class="hero__search__phone__text">
-                                <h5>+84 09 0785 3006</h5>
-                                <span>support 24/7 time</span>
+                                <h5>+84 90 720 0573</h5>
+                                <span>Hỗ trợ 24/7</span>
                             </div>
                         </div>
                     </div>
@@ -68,10 +68,10 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <div class="breadcrumb__text">
-                        <h2>Products Management</h2>
+                        <h2>Quản lý sản phẩm</h2>
                         <div class="breadcrumb__option">
-                            <a href="?page=content">Home</a>
-                            <span>Products Management</span>
+                            <a href="?page=content">Trang chủ</a>
+                            <span>Trang quản lý sản phẩm</span>
                         </div>
                     </div>
                 </div>
@@ -89,13 +89,13 @@
                         <table>
                             <thead>
                                 <tr>
-                                    <th class="shoping__product">Products</th>
-                                    <th class="shoping__product">Category</th>
-                                    <th class="shoping__product">Branch  </th>
+                                    <th class="shoping__product">Các sản phẩm</th>
+                                    <th class="shoping__product">Loại</th>
+                                    <th class="shoping__product">Chi nhánh </th>
                                     
-                                    <th>  Price</th>
-                                    <th>Quantity</th>
-                                    <th><a href="?page=addp">Add</a></th>
+                                    <th>  Giá</th>
+                                    <th>Số lượng</th>
+                                    <th><a href="?page=addp">Thêm</a></th>
                                     
                                     
                                 </tr>
@@ -162,7 +162,7 @@
                                         
                                     </td>
                                     <td class="shoping__cart__total">
-                                       <a href="?page=edit&&id=<?php echo $row['product_id'] ?>"> EDIT</a>
+                                       <a href="?page=edit&&id=<?php echo $row['product_id'] ?>"> Sửa</a>
                                     </td>
                                     <td class="shoping__cart__item__close">
                                         

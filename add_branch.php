@@ -5,10 +5,10 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <div class="breadcrumb__text">
-                        <h2>Branch Management</h2>
+                        <h2>Quản lý chi nhánh</h2>
                         <div class="breadcrumb__option">
-                            <a href="?page=content">Home</a>
-                            <span>Branch Management</span>
+                            <a href="?page=content">Trang chủ</a>
+                            <span>Quản lý chi nhánh</span>
                         </div>
                     </div>
                 </div>
@@ -58,15 +58,15 @@
 	<h2>Adding Branch</h2>
 			 	<form id="form1" name="form1" method="post" action="" class="form-horizontal" role="form">
 				 <div class="form-group">
-						    <label for="txtTen" class="col-sm-2 control-label">Branch ID(*):  </label>
+						    <label for="txtTen" class="col-sm-2 control-label">Mã chi nhánh(*):  </label>
 							<div class="col-sm-10">
-							      <input type="text" name="txtID" id="txtID" class="form-control" placeholder="Branch ID" value='<?php echo isset($_POST["txtID"])?($_POST["txtID"]):"";?>'>
+							      <input type="text" name="txtID" id="txtID" class="form-control" placeholder="ID chi nhánh" value='<?php echo isset($_POST["txtID"])?($_POST["txtID"]):"";?>'>
 							</div>
 					</div>	
 				 <div class="form-group">
-						    <label for="txtTen" class="col-sm-2 control-label">Branch Name(*):  </label>
+						    <label for="txtTen" class="col-sm-2 control-label">Tên chi nhánh(*):  </label>
 							<div class="col-sm-10">
-							      <input type="text" name="txtName" id="txtName" class="form-control" placeholder="Branch Name" value='<?php echo isset($_POST["txtName"])?($_POST["txtName"]):"";?>'>
+							      <input type="text" name="txtName" id="txtName" class="form-control" placeholder="Tên chi nhanhs" value='<?php echo isset($_POST["txtName"])?($_POST["txtName"]):"";?>'>
 							</div>
 					</div>
                     
