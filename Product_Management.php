@@ -152,7 +152,7 @@
                                         <?php echo $row["branch_name"]; ?>
                                     </td>
                                     <td class="shoping__cart__price">
-                                        <?php echo $row["price"];*1000 ?> VNĐ
+                                        <?php echo $row["price"]; ?> VNĐ
                                     </td>
                                     <td class="shoping__cart__price">
                                         
