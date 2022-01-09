@@ -7,7 +7,7 @@
     <meta name="keywords" content="Vinyl, unica, creative, html">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Nguyễn Nhâb</title>
+    <title>Nguyễn Nhân</title>
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;900&display=swap" rel="stylesheet">
@@ -421,10 +421,10 @@ include_once("connection.php");
                 <div class="col-lg-4 col-md-12">
                     <div class="footer__widget">
                         <div class="footer__widget__social">
-                            <a href="https://www.facebook.com/profile.php?id=100072321205186"><i class="fa fa-facebook"></i></a>
-                            <a href="#"><i class="fa fa-instagram"></i></a>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                            <a href="#"><i class="fa fa-pinterest"></i></a>
+                            <a href="https://www.facebook.com/profile.php?id=100072321205186" target="_blank"><i class="fa fa-facebook"></i></a>
+                            <a href="#" target="_blank"><i class="fa fa-instagram"></i></a>
+                            <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
+                            <a href="#" target="_blank"><i class="fa fa-pinterest"></i></a>
                         </div>
                     </div>
                 </div>
