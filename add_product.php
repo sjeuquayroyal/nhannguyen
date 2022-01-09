@@ -146,7 +146,7 @@
 ?>
    
 <div class="container">
-	<h2>Thêm sản pphẩm</h2>
+	<h2>Thêm sản phẩm</h2>
 
 	 	<form id="frmProduct" name="frmProduct" method="post" enctype="multipart/form-data" action="" class="form-horizontal" role="form">
          
